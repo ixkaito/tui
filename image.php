@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
+ * @since TUI 1.0
  */
 
 get_header(); ?>
@@ -34,9 +34,9 @@ get_header(); ?>
 						<div class="entry-attachment">
 							<?php
 								/**
-								 * Filter the default Twenty Fifteen image attachment size.
+								 * Filter the default TUI image attachment size.
 								 *
-								 * @since Twenty Fifteen 1.0
+								 * @since TUI 1.0
 								 *
 								 * @param string $image_size Image size. Default 'large'.
 								 */

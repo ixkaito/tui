@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
+ * @since TUI 1.0
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">

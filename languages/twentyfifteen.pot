@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Fifteen 1.1\n"
+"Project-Id-Version: TUI 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
 "POT-Creation-Date: 2015-04-23 15:11:26+00:00\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.1)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (TUI 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25
 msgid "https://wordpress.org/"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid ""
-"Twenty Fifteen requires at least WordPress version 4.1. You are running "
+"TUI requires at least WordPress version 4.1. You are running "
 "version %s. Please upgrade and try again."
 msgstr ""
 
@@ -306,7 +306,7 @@ msgid "Previous post:"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Twenty Fifteen"
+msgid "TUI"
 msgstr ""
 
 #. Theme URI of the plugin/theme
@@ -316,7 +316,7 @@ msgstr ""
 #. Description of the plugin/theme
 msgid ""
 "Our 2015 default theme is clean, blog-focused, and designed for clarity. "
-"Twenty Fifteen's simple, straightforward typography is readable on a wide "
+"TUI's simple, straightforward typography is readable on a wide "
 "variety of screen sizes, and suitable for multiple languages. We designed it "
 "using a mobile-first approach, meaning your content takes center-stage, "
 "regardless of whether your visitors arrive by smartphone, tablet, laptop, or "

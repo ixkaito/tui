@@ -64,7 +64,7 @@
 	 * @summary Add or remove ARIA attributes.
 	 * Uses jQuery's width() function to determine the size of the window and add
 	 * the default ARIA attributes for the menu toggle if it's visible.
-	 * @since Twenty Fifteen 1.1
+	 * @since TUI 1.0
 	 */
 	function onResizeARIA() {
 		if ( 955 > $window.width() ) {

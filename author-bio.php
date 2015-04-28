@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
+ * @since TUI 1.0
  */
 ?>
 
@@ -15,7 +15,7 @@
 		/**
 		 * Filter the author bio avatar size.
 		 *
-		 * @since Twenty Fifteen 1.0
+		 * @since TUI 1.0
 		 *
 		 * @param int $size The avatar height and width size in pixels.
 		 */
