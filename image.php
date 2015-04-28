@@ -3,7 +3,7 @@
  * The template for displaying image attachments
  *
  * @package WordPress
- * @subpackage Twenty_Fifteen
+ * @subpackage TUI
  * @since TUI 1.0
  */
 

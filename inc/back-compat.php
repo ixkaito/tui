@@ -7,7 +7,7 @@
  * relies on many newer functions and markup changes introduced in 4.1.
  *
  * @package WordPress
- * @subpackage Twenty_Fifteen
+ * @subpackage TUI
  * @since TUI 1.0
  */
 

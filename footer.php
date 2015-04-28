@@ -5,7 +5,7 @@
  * Contains the closing of the "site-content" div and all content after.
  *
  * @package WordPress
- * @subpackage Twenty_Fifteen
+ * @subpackage TUI
  * @since TUI 1.0
  */
 ?>

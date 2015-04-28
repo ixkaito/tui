@@ -5,7 +5,7 @@
  * Used for both single and index/archive/search.
  *
  * @package WordPress
- * @subpackage Twenty_Fifteen
+ * @subpackage TUI
  * @since TUI 1.0
  */
 ?>
