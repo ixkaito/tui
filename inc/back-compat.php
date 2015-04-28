@@ -18,12 +18,12 @@
  *
  * @since TUI 1.0
  */
-function twentyfifteen_switch_theme() {
+function tui_switch_theme() {
 	switch_theme( WP_DEFAULT_THEME, WP_DEFAULT_THEME );
 	unset( $_GET['activated'] );
-	add_action( 'admin_notices', 'twentyfifteen_upgrade_notice' );
+	add_action( 'admin_notices', 'tui_upgrade_notice' );
 }
-add_action( 'after_switch_theme', 'twentyfifteen_switch_theme' );
+add_action( 'after_switch_theme', 'tui_switch_theme' );
 
 /**
  * Add message for unsuccessful theme switch.
@@ -33,8 +33,8 @@ add_action( 'after_switch_theme', 'twentyfifteen_switch_theme' );
  *
  * @since TUI 1.0
  */
-function twentyfifteen_upgrade_notice() {
-	$message = sprintf( __( 'TUI requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'twentyfifteen' ), $GLOBALS['wp_version'] );
+function tui_upgrade_notice() {
+	$message = sprintf( __( 'TUI requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'tui' ), $GLOBALS['wp_version'] );
 	printf( '<div class="error"><p>%s</p></div>', $message );
 }
 
@@ -43,21 +43,21 @@ function twentyfifteen_upgrade_notice() {
  *
  * @since TUI 1.0
  */
-function twentyfifteen_customize() {
-	wp_die( sprintf( __( 'TUI requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'twentyfifteen' ), $GLOBALS['wp_version'] ), '', array(
+function tui_customize() {
+	wp_die( sprintf( __( 'TUI requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'tui' ), $GLOBALS['wp_version'] ), '', array(
 		'back_link' => true,
 	) );
 }
-add_action( 'load-customize.php', 'twentyfifteen_customize' );
+add_action( 'load-customize.php', 'tui_customize' );
 
 /**
  * Prevent the Theme Preview from being loaded on WordPress versions prior to 4.1.
  *
  * @since TUI 1.0
  */
-function twentyfifteen_preview() {
+function tui_preview() {
 	if ( isset( $_GET['preview'] ) ) {
-		wp_die( sprintf( __( 'TUI requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'twentyfifteen' ), $GLOBALS['wp_version'] ) );
+		wp_die( sprintf( __( 'TUI requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'tui' ), $GLOBALS['wp_version'] ) );
 	}
 }
-add_action( 'template_redirect', 'twentyfifteen_preview' );
+add_action( 'template_redirect', 'tui_preview' );

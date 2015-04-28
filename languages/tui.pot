@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TUI 1.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/tui\n"
 "POT-Creation-Date: 2015-04-23 15:11:26+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,7 +87,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#. #-#-#-#-#  twentyfifteen.pot (TUI 1.0)  #-#-#-#-#
+#. #-#-#-#-#  tui.pot (TUI 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25
 msgid "https://wordpress.org/"
@@ -310,7 +310,7 @@ msgid "TUI"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfifteen/"
+msgid "https://wordpress.org/themes/tui/"
 msgstr ""
 
 #. Description of the plugin/theme
