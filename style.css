@@ -354,7 +354,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1em 1em;
+	margin: 0 0 1em 1.5em;
 }
 
 ul {
@@ -2492,7 +2492,7 @@ p > video {
 	li > ol,
 	blockquote > ul,
 	blockquote > ol {
-		margin-left: 1em;
+		margin-left: 1.5em;
 	}
 
 	blockquote {
@@ -2551,7 +2551,7 @@ p > video {
 	.hentry + .hentry,
 	.page-header + .hentry,
 	.page-header + .page-content {
-		margin-top: 7.6923%;
+		margin-top: 2em;
 	}
 
 	.hentry + .hentry {
