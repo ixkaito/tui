@@ -1300,7 +1300,7 @@ img.aligncenter {
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
-	margin: 0 auto 9.09090%;
+	margin: 0 auto 1em;
 	width: 100%;
 	word-wrap: break-word;
 }
@@ -2690,10 +2690,6 @@ p > video {
 		margin-top: 0;
 	}
 
-	.widget {
-		margin-bottom: 11.1111%;
-	}
-
 	.site-main {
 		padding: 7.6923% 0;
 	}
@@ -3115,10 +3111,6 @@ p > video {
 	.widget .wp-caption.alignright,
 	.widget .wp-caption.aligncenter {
 		margin-bottom: 1em;
-	}
-
-	.widget-title {
-		margin: 0 0 1.5em;
 	}
 
 	.widget_calendar td,
@@ -4199,7 +4191,7 @@ p > video {
 	.widget {
 		font-size: 12px;
 		font-size: 1.2rem;
-		margin: 0 0 20%;
+		margin: 0 0 1em;
 		padding: 0 20%;
 	}
 
