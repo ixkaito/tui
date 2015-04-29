@@ -627,13 +627,14 @@ input[type="radio"] {
  */
 
 a {
-	color: #fff;
+	color: #e6db74;
 	text-decoration: none;
 }
 
 a:hover,
 a:focus {
-	color: #ccc;
+	background: #e6db74;
+	color: #000;
 }
 
 
@@ -1505,6 +1506,10 @@ img.aligncenter {
  * 12.0 Content
  */
 
+.site-main {
+	padding: 0.5em;
+}
+
 .secondary {
 	background-color: #fff;
 	display: none;
@@ -1533,17 +1538,11 @@ img.aligncenter {
  */
 
 .hentry {
-	padding-top: 7.6923%;
 	position: relative;
 }
 
 .hentry.has-post-thumbnail {
 	padding-top: 0;
-}
-
-.hentry.sticky:not(.has-post-thumbnail) {
-	padding-top: -webkit-calc(7.6923% + 24px);
-	padding-top: calc(7.6923% + 24px);
 }
 
 .hentry + .hentry {
@@ -1563,11 +1562,6 @@ img.aligncenter {
 a.post-thumbnail:hover,
 a.post-thumbnail:focus {
 	opacity: 0.85;
-}
-
-.entry-content,
-.entry-summary {
-	padding: 0 7.6923% 7.6923%;
 }
 
 .entry-content > :last-child,
@@ -1781,20 +1775,8 @@ a.post-thumbnail:focus {
 	top: 1px;
 }
 
-.entry-footer {
-	background-color: #f7f7f7;
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
-	font-size: 12px;
-	font-size: 1.2rem;
-	padding: 3.8461% 7.6923%;
-}
-
 .entry-footer a {
 	border-bottom: 1px solid transparent;
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
 }
 
 .entry-footer a:hover {
@@ -1807,14 +1789,12 @@ a.post-thumbnail:focus {
 }
 
 .sticky-post {
-	background-color: #333;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	font-weight: 700;
-	letter-spacing: 0.04em;
-	padding: 0.25em 0.5em;
-	position: absolute;
-	top: 0;
 	text-transform: uppercase;
+	margin-right: 0.5em;
+	float: left;
 }
 
 .updated:not(.published) {
@@ -1844,71 +1824,7 @@ a.post-thumbnail:focus {
 .comments-link,
 .entry-format,
 .full-size-link {
-	margin-right: 1em;
-}
-
-.format-aside .entry-format:before {
-	content: "\f101";
-}
-
-.format-image .entry-format:before {
-	content: "\f473";
-}
-
-.format-gallery .entry-format:before {
-	content: "\f103";
-}
-
-.format-video .entry-format:before {
-	content: "\f104";
-}
-
-.format-status .entry-format:before {
-	content: "\f105";
-}
-
-.format-quote .entry-format:before {
-	content: "\f106";
-}
-
-.format-link .entry-format:before {
-	content: "\f107";
-}
-
-.format-chat .entry-format:before {
-	content: "\f108";
-}
-
-.format-audio .entry-format:before {
-	content: "\f109";
-}
-
-.posted-on:before {
-	content: "\f307";
-}
-
-.byline:before {
-	content: "\f304";
-}
-
-.cat-links:before {
-	content: "\f301";
-}
-
-.tags-links:before {
-	content: "\f302";
-}
-
-.comments-link:before {
-	content: "\f300";
-}
-
-.full-size-link:before {
-	content: "\f402";
-}
-
-.edit-link:before {
-	content: "\f411";
+	margin-right: 0.5em;
 }
 
 .comments-link,
@@ -2679,10 +2595,6 @@ p > video {
 		margin-top: 0;
 	}
 
-	.hentry.sticky:not(.has-post-thumbnail) {
-		padding-top: inherit;
-	}
-
 	.hentry + .hentry,
 	.page-header + .hentry,
 	.page-header + .page-content {
@@ -2695,15 +2607,6 @@ p > video {
 
 	.post-thumbnail {
 		margin-bottom: 2.4em;
-	}
-
-	.entry-content,
-	.entry-summary {
-		padding: 0 9.0909% 9.0909%;
-	}
-
-	.entry-footer {
-		padding: 4.5454% 9.0909%;
 	}
 
 	.page-header {
@@ -4222,17 +4125,8 @@ p > video {
 		font-size: 1.2rem;
 	}
 
-	.hentry {
-		padding-top: 8.3333%;
-	}
-
 	.post-thumbnail {
 		margin-bottom: 2.4em;
-	}
-
-	.entry-content,
-	.entry-summary {
-		padding: 0 10% 10%;
 	}
 
 	.entry-content h1,
@@ -4309,10 +4203,6 @@ p > video {
 	.author-link:after {
 		font-size: 16px;
 		top: 1px;
-	}
-
-	.entry-footer {
-		padding: 5% 10%;
 	}
 
 	.posted-on:before,

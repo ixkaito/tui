@@ -17,7 +17,12 @@
 	?>
 
 	<header class="entry-header">
+
 		<?php
+			if ( is_sticky() && is_home() && ! is_paged() ) {
+				printf( '<span class="sticky-post">%s</span>', __( 'Featured', 'tui' ) );
+			}
+
 			if ( is_single() ) :
 				the_title( '<h1 class="entry-title">', '</h1>' );
 			else :
