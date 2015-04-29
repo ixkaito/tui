@@ -204,7 +204,7 @@ button,
 input,
 select,
 textarea {
-	color: #333;
+	color: #fff;
 	font-family: "Inconsolata", monospace;
 	font-size: 15px;
 	font-size: 1.5rem;
@@ -1533,7 +1533,6 @@ img.aligncenter {
  */
 
 .hentry {
-	background-color: #fff;
 	padding-top: 7.6923%;
 	position: relative;
 }
@@ -1564,16 +1563,6 @@ img.aligncenter {
 a.post-thumbnail:hover,
 a.post-thumbnail:focus {
 	opacity: 0.85;
-}
-
-.entry-header {
-	padding: 0 7.6923%;
-}
-
-.entry-title {
-	font-size: 26px;
-	font-size: 2.6rem;
-	margin-bottom: 0.9231em;
 }
 
 .entry-content,
@@ -2690,19 +2679,8 @@ p > video {
 		margin-top: 0;
 	}
 
-	.site-main {
-		padding: 7.6923% 0;
-	}
-
 	.hentry.sticky:not(.has-post-thumbnail) {
 		padding-top: inherit;
-	}
-
-	.hentry,
-	.page-header,
-	.page-content {
-		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-		margin: 0 7.6923%;
 	}
 
 	.hentry + .hentry,
@@ -2717,10 +2695,6 @@ p > video {
 
 	.post-thumbnail {
 		margin-bottom: 2.4em;
-	}
-
-	.entry-header {
-		padding: 0 9.0909%;
 	}
 
 	.entry-content,
@@ -3138,13 +3112,6 @@ p > video {
 
 	.post-thumbnail {
 		margin-bottom: 3em;
-	}
-
-	.entry-title,
-	.widecolumn h2 {
-		font-size: 35px;
-		font-size: 3.5rem;
-		margin-bottom: 1.2em;
 	}
 
 	.entry-content h1,
@@ -3667,13 +3634,6 @@ p > video {
 		margin-bottom: 2.9474em;
 	}
 
-	.entry-title,
-	.widecolumn h2 {
-		font-size: 39px;
-		font-size: 3.9rem;
-		margin-bottom: 1.2308em;
-	}
-
 	.entry-content h1,
 	.entry-summary h1,
 	.page-content h1,
@@ -3939,10 +3899,6 @@ p > video {
 		display: block;
 		margin: 0;
 		padding: 0;
-	}
-
-	.site-main {
-		padding: 8.3333% 0;
 	}
 
 	.site-content {
@@ -4266,35 +4222,12 @@ p > video {
 		font-size: 1.2rem;
 	}
 
-	.hentry,
-	.page-header,
-	.page-content {
-		margin: 0 8.3333%;
-	}
-
 	.hentry {
 		padding-top: 8.3333%;
 	}
 
-	.hentry + .hentry,
-	.page-header + .hentry,
-	.page-header + .page-content {
-		margin-top: 8.3333%;
-	}
-
 	.post-thumbnail {
 		margin-bottom: 2.4em;
-	}
-
-	.entry-header {
-		padding: 0 10%;
-	}
-
-	.entry-title,
-	.widecolumn h2 {
-		font-size: 31px;
-		font-size: 3.1rem;
-		margin-bottom: 1.1613em;
 	}
 
 	.entry-content,
@@ -4840,13 +4773,6 @@ p > video {
 		margin-bottom: 2.4706em;
 	}
 
-	.entry-title,
-	.widecolumn h2 {
-		font-size: 35px;
-		font-size: 3.5rem;
-		margin-bottom: 1.2em;
-	}
-
 	.entry-content h1,
 	.entry-summary h1,
 	.page-content h1,
@@ -5354,13 +5280,6 @@ p > video {
 
 	.post-thumbnail {
 		margin-bottom: 2.9474em;
-	}
-
-	.entry-title,
-	.widecolumn h2 {
-		font-size: 39px;
-		font-size: 3.9rem;
-		margin-bottom: 1.2308em;
 	}
 
 	.entry-content h1,
