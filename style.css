@@ -1499,7 +1499,7 @@ img.aligncenter {
  */
 
 .site-main {
-	padding: 0.5em;
+	padding: 1em;
 }
 
 .secondary {
@@ -1560,6 +1560,10 @@ a.post-thumbnail:focus {
 	margin-bottom: 1em;
 }
 
+.entry-title {
+	text-transform: uppercase;
+}
+
 .entry-content,
 .entry-summary,
 .page-content,
@@ -1574,60 +1578,30 @@ a.post-thumbnail:focus {
 .entry-content h1,
 .entry-summary h1,
 .page-content h1,
-.comment-content h1 {
-	font-size: 26px;
-	font-size: 2.6rem;
-	margin-top: 1.8462em;
-	margin-bottom: 0.9231em;
-}
-
+.comment-content h1,
 .entry-content h2,
 .entry-summary h2,
 .page-content h2,
-.comment-content h2 {
-	font-size: 22px;
-	font-size: 2.2rem;
-	margin-top: 2.1818em;
-	margin-bottom: 1.0909em;
-}
-
+.comment-content h2,
 .entry-content h3,
 .entry-summary h3,
 .page-content h3,
-.comment-content h3 {
-	font-size: 18px;
-	font-size: 1.8rem;
-	margin-top: 2.6667em;
-	margin-bottom: 1.3333em;
-}
-
+.comment-content h3,
 .entry-content h4,
-.entry-content h5,
-.entry-content h6,
 .entry-summary h4,
-.entry-summary h5,
-.entry-summary h6,
 .page-content h4,
-.page-content h5,
-.page-content h6,
 .comment-content h4,
-.comment-content h5,
-.comment-content h6 {
-	font-size: 15px;
-	font-size: 1.5rem;
-	margin-top: 3.2em;
-	margin-bottom: 1.6em;
-}
-
 .entry-content h5,
-.entry-content h6,
 .entry-summary h5,
-.entry-summary h6,
 .page-content h5,
-.page-content h6,
 .comment-content h5,
+.entry-content h6,
+.entry-summary h6,
+.page-content h6,
 .comment-content h6 {
-	letter-spacing: 0.1em;
+	color: #a6e22e;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	text-transform: uppercase;
 }
 
@@ -1907,20 +1881,6 @@ a.post-thumbnail:focus {
 /**
  * 12.2 Post Formats
  */
-
-.format-aside .entry-title,
-.format-image .entry-title,
-.format-video .entry-title,
-.format-quote .entry-title,
-.format-gallery .entry-title,
-.format-status .entry-title,
-.format-link .entry-title,
-.format-audio .entry-title,
-.format-chat .entry-title {
-	font-size: 18px;
-	font-size: 1.8rem;
-	margin-bottom: 1.3333em;
-}
 
 .format-link .entry-title a:after {
 	content: "\f442";
@@ -2935,60 +2895,6 @@ p > video {
 		margin-bottom: 3em;
 	}
 
-	.entry-content h1,
-	.entry-summary h1,
-	.page-content h1,
-	.comment-content h1 {
-		font-size: 35px;
-		font-size: 3.5rem;
-		margin-top: 1.6em;
-		margin-bottom: 0.8em;
-	}
-
-	.entry-content h2,
-	.entry-summary h2,
-	.page-content h2,
-	.comment-content h2 {
-		font-size: 29px;
-		font-size: 2.9rem;
-		margin-top: 1.931em;
-		margin-bottom: 0.9655em;
-	}
-
-	.entry-content h3,
-	.entry-summary h3,
-	.page-content h3,
-	.comment-content h3 {
-		font-size: 24px;
-		font-size: 2.4rem;
-		margin-top: 2.3333em;
-		margin-bottom: 1.1667em;
-	}
-
-	.entry-content h4,
-	.entry-summary h4,
-	.page-content h4,
-	.comment-content h4 {
-		font-size: 20px;
-		font-size: 2rem;
-		margin-top: 2.8em;
-		margin-bottom: 1.4em;
-	}
-
-	.entry-content h5,
-	.entry-content h6,
-	.entry-summary h5,
-	.entry-summary h6,
-	.page-content h5,
-	.page-content h6,
-	.comment-content h5,
-	.comment-content h6 {
-		font-size: 17px;
-		font-size: 1.7rem;
-		margin-top: 3.2941em;
-		margin-bottom: 1.6471em;
-	}
-
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		font-size: 24px;
@@ -3044,20 +2950,6 @@ p > video {
 
 	.entry-attachment {
 		margin-bottom: 1.6471em;
-	}
-
-	.format-aside .entry-title,
-	.format-image .entry-title,
-	.format-video .entry-title,
-	.format-quote .entry-title,
-	.format-gallery .entry-title,
-	.format-status .entry-title,
-	.format-link .entry-title,
-	.format-audio .entry-title,
-	.format-chat .entry-title {
-		font-size: 20px;
-		font-size: 2rem;
-		margin-bottom: 1.4em;
 	}
 
 	.format-link .entry-title a:after {
@@ -3420,60 +3312,6 @@ p > video {
 		margin-bottom: 2.9474em;
 	}
 
-	.entry-content h1,
-	.entry-summary h1,
-	.page-content h1,
-	.comment-content h1 {
-		font-size: 39px;
-		font-size: 3.9rem;
-		margin-top: 1.641em;
-		margin-bottom: 0.8205em;
-	}
-
-	.entry-content h2,
-	.entry-summary h2,
-	.page-content h2,
-	.comment-content h2 {
-		font-size: 32px;
-		font-size: 3.2rem;
-		margin-top: 2em;
-		margin-bottom: 1em;
-	}
-
-	.entry-content h3,
-	.entry-summary h3,
-	.page-content h3,
-	.comment-content h3 {
-		font-size: 27px;
-		font-size: 2.7rem;
-		margin-top: 2.3704em;
-		margin-bottom: 1.1852em;
-	}
-
-	.entry-content h4,
-	.entry-summary h4,
-	.page-content h4,
-	.comment-content h4 {
-		font-size: 22px;
-		font-size: 2.2rem;
-		margin-top: 2.9091em;
-		margin-bottom: 1.4545em;
-	}
-
-	.entry-content h5,
-	.entry-content h6,
-	.entry-summary h5,
-	.entry-summary h6,
-	.page-content h5,
-	.page-content h6,
-	.comment-content h5,
-	.comment-content h6 {
-		font-size: 19px;
-		font-size: 1.9rem;
-		margin-top: 3.3684em;
-		margin-bottom: 1.6842em;
-	}
-
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		top: 3px;
@@ -3524,20 +3362,6 @@ p > video {
 
 	.entry-attachment {
 		margin-bottom: 1.6842em
-	}
-
-	.format-aside .entry-title,
-	.format-image .entry-title,
-	.format-video .entry-title,
-	.format-quote .entry-title,
-	.format-gallery .entry-title,
-	.format-status .entry-title,
-	.format-link .entry-title,
-	.format-audio .entry-title,
-	.format-chat .entry-title {
-		font-size: 22px;
-		font-size: 2.2rem;
-		margin-bottom: 1.4545em;
 	}
 
 	.format-link .entry-title a:after {
@@ -3995,60 +3819,6 @@ p > video {
 		margin-bottom: 2.4em;
 	}
 
-	.entry-content h1,
-	.entry-summary h1,
-	.page-content h1,
-	.comment-content h1 {
-		font-size: 31px;
-		font-size: 3.1rem;
-		margin-top: 1.5484em;
-		margin-bottom: 0.7742em;
-	}
-
-	.entry-content h2,
-	.entry-summary h2,
-	.page-content h2,
-	.comment-content h2 {
-		font-size: 26px;
-		font-size: 2.6rem;
-		margin-top: 1.8462em;
-		margin-bottom: 0.9231em;
-	}
-
-	.entry-content h3,
-	.entry-summary h3,
-	.page-content h3,
-	.comment-content h3 {
-		font-size: 22px;
-		font-size: 2.2rem;
-		margin-top: 2.1818em;
-		margin-bottom: 1.0909em;
-	}
-
-	.entry-content h4,
-	.entry-summary h4,
-	.page-content h4,
-	.comment-content h4 {
-		font-size: 18px;
-		font-size: 1.8rem;
-		margin-top: 2.6667em;
-		margin-bottom: 1.3333em;
-	}
-
-	.entry-content h5,
-	.entry-content h6,
-	.entry-summary h5,
-	.entry-summary h6,
-	.page-content h5,
-	.page-content h6,
-	.comment-content h5,
-	.comment-content h6 {
-		font-size: 15px;
-		font-size: 1.5rem;
-		margin-top: 3.2em;
-		margin-bottom: 1.6em;
-	}
-
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		font-size: 16px;
@@ -4113,20 +3883,6 @@ p > video {
 
 	.entry-attachment {
 		margin-bottom: 1.6em;
-	}
-
-	.format-aside .entry-title,
-	.format-image .entry-title,
-	.format-video .entry-title,
-	.format-quote .entry-title,
-	.format-gallery .entry-title,
-	.format-status .entry-title,
-	.format-link .entry-title,
-	.format-audio .entry-title,
-	.format-chat .entry-title {
-		font-size: 18px;
-		font-size: 1.8rem;
-		margin-bottom: 1.3333em;
 	}
 
 	.format-link .entry-title a:after {
@@ -4494,60 +4250,6 @@ p > video {
 		margin-bottom: 2.4706em;
 	}
 
-	.entry-content h1,
-	.entry-summary h1,
-	.page-content h1,
-	.comment-content h1 {
-		font-size: 35px;
-		font-size: 3.5rem;
-		margin-top: 1.6em;
-		margin-bottom: 0.8em;
-	}
-
-	.entry-content h2,
-	.entry-summary h2,
-	.page-content h2,
-	.comment-content h2 {
-		font-size: 29px;
-		font-size: 2.9rem;
-		margin-top: 1.931em;
-		margin-bottom: 0.9655em;
-	}
-
-	.entry-content h3,
-	.entry-summary h3,
-	.page-content h3,
-	.comment-content h3 {
-		font-size: 24px;
-		font-size: 2.4rem;
-		margin-top: 2.3333em;
-		margin-bottom: 1.1667em;
-	}
-
-	.entry-content h4,
-	.entry-summary h4,
-	.page-content h4,
-	.comment-content h4 {
-		font-size: 20px;
-		font-size: 2rem;
-		margin-top: 2.8em;
-		margin-bottom: 1.4em;
-	}
-
-	.entry-content h5,
-	.entry-content h6,
-	.entry-summary h5,
-	.entry-summary h6,
-	.page-content h5,
-	.page-content h6,
-	.comment-content h5,
-	.comment-content h6 {
-		font-size: 17px;
-		font-size: 1.7rem;
-		margin-top: 3.2941em;
-		margin-bottom: 1.6471em;
-	}
-
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		font-size: 24px;
@@ -4579,14 +4281,6 @@ p > video {
 		padding-top: 0.4118em;
 	}
 
-	.page-title,
-	.comments-title,
-	.comment-reply-title,
-	.post-navigation .post-title {
-		font-size: 24px;
-		font-size: 2.4rem;
-	}
-
 	.page-links {
 		margin-bottom: 1.4117em;
 	}
@@ -4598,20 +4292,6 @@ p > video {
 
 	.entry-attachment {
 		margin-bottom: 1.6471em;
-	}
-
-	.format-aside .entry-title,
-	.format-image .entry-title,
-	.format-video .entry-title,
-	.format-quote .entry-title,
-	.format-gallery .entry-title,
-	.format-status .entry-title,
-	.format-link .entry-title,
-	.format-audio .entry-title,
-	.format-chat .entry-title {
-		font-size: 20px;
-		font-size: 2rem;
-		margin-bottom: 1.4em;
 	}
 
 	.format-link .entry-title a:after {
@@ -4976,60 +4656,6 @@ p > video {
 		margin-bottom: 2.9474em;
 	}
 
-	.entry-content h1,
-	.entry-summary h1,
-	.page-content h1,
-	.comment-content h1 {
-		font-size: 39px;
-		font-size: 3.9rem;
-		margin-top: 1.641em;
-		margin-bottom: 0.8205em;
-	}
-
-	.entry-content h2,
-	.entry-summary h2,
-	.page-content h2,
-	.comment-content h2 {
-		font-size: 32px;
-		font-size: 3.2rem;
-		margin-top: 2em;
-		margin-bottom: 1em;
-	}
-
-	.entry-content h3,
-	.entry-summary h3,
-	.page-content h3,
-	.comment-content h3 {
-		font-size: 27px;
-		font-size: 2.7rem;
-		margin-top: 2.3704em;
-		margin-bottom: 1.1852em;
-	}
-
-	.entry-content h4,
-	.entry-summary h4,
-	.page-content h4,
-	.comment-content h4 {
-		font-size: 22px;
-		font-size: 2.2rem;
-		margin-top: 2.9091em;
-		margin-bottom: 1.4545em;
-	}
-
-	.entry-content h5,
-	.entry-content h6,
-	.entry-summary h5,
-	.entry-summary h6,
-	.page-content h5,
-	.page-content h6,
-	.comment-content h5,
-	.comment-content h6 {
-		font-size: 19px;
-		font-size: 1.9rem;
-		margin-top: 3.3684em;
-		margin-bottom: 1.6842em;
-	}
-
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		top: 3px;
@@ -5080,20 +4706,6 @@ p > video {
 
 	.entry-attachment {
 		margin-bottom: 1.6842em;
-	}
-
-	.format-aside .entry-title,
-	.format-image .entry-title,
-	.format-video .entry-title,
-	.format-quote .entry-title,
-	.format-gallery .entry-title,
-	.format-status .entry-title,
-	.format-link .entry-title,
-	.format-audio .entry-title,
-	.format-chat .entry-title {
-		font-size: 22px;
-		font-size: 2.2rem;
-		margin-bottom: 1.4545em;
 	}
 
 	.format-link .entry-title a:after {
