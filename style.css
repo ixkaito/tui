@@ -1716,8 +1716,8 @@ a.post-thumbnail:focus {
 }
 
 .sticky-post {
-	background-color: #fff;
-	color: #000;
+	background-color: #f92672;
+	color: #fff;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 1em;
@@ -4854,11 +4854,6 @@ p > video {
 
 	.hentry.has-post-thumbnail {
 		padding-top: 7.6923%;
-	}
-
-	.sticky-post {
-		background: #000 !important;
-		color: #fff !important;
 	}
 
 	.entry-header,
