@@ -46,8 +46,8 @@ get_header(); ?>
 
 			// Previous/next page navigation.
 			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'tui' ),
-				'next_text'          => __( 'Next page', 'tui' ),
+				'prev_text'          => '&lt;-',
+				'next_text'          => '-&gt;',
 				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'tui' ) . ' </span>',
 			) );
 
