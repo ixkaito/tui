@@ -381,8 +381,7 @@ dd {
 table,
 th,
 td {
-	border: 1px solid #eaeaea;
-	border: 1px solid rgba(51, 51, 51, 0.1);
+	border: 1px solid #fff;
 }
 
 table {
@@ -1393,18 +1392,6 @@ img.aligncenter {
 .widget_recent_entries ul {
 	list-style: none;
 	margin: 0;
-}
-
-.widget_archive li,
-.widget_categories li,
-.widget_links li,
-.widget_meta li,
-.widget_nav_menu li,
-.widget_pages li,
-.widget_recent_comments li,
-.widget_recent_entries li {
-	border-top: 1px solid #eaeaea;
-	border-top: 1px solid rgba(51, 51, 51, 0.1);
 }
 
 .widget_archive li:first-child,
