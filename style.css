@@ -3499,10 +3499,7 @@ p > video {
 	}
 
 	.widget {
-		font-size: 12px;
-		font-size: 1.2rem;
 		margin: 0 0 1em;
-		padding: 0 20%;
 	}
 
 	.widget blockquote {
@@ -3890,17 +3887,6 @@ p > video {
 	.comment-navigation .nav-previous a:before,
 	.comment-navigation .nav-next a:after {
 		top: 2px;
-	}
-
-	.widget {
-		font-size: 14px;
-		font-size: 1.4rem;
-	}
-
-	.widget blockquote {
-		font-size: 14px;
-		font-size: 1.4rem;
-		padding-left: 1.2143em;
 	}
 
 	.widget button,
