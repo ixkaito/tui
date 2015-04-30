@@ -1210,6 +1210,10 @@ img.aligncenter {
 	word-wrap: break-word;
 }
 
+.widget:last-child {
+	margin-bottom: 0;
+}
+
 .widget-title {
 	color: #fff;
 	font-family: "Inconsolata", monospace;
@@ -1384,13 +1388,6 @@ img.aligncenter {
 .widget-area {
 	margin: 9.09090% auto 0;
 }
-
-.site-footer {
-	background-color: #fff;
-	border-top: 1px solid rgba(51, 51, 51, 0.1);
-	padding: 3.84615% 7.6923%;
-}
-
 
 /**
  * 12.1 Posts and pages
@@ -2008,29 +2005,9 @@ a.post-thumbnail:focus {
 /**
  * 13.0 Footer
  */
-
-.site-info {
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
-	font-size: 12px;
-	font-size: 1.2rem;
+.site-footer {
+	padding: 1em;
 }
-
-.site-info a {
-	border-bottom: 1px solid transparent;
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
-}
-
-.site-info a:hover {
-	border-bottom: 1px solid #333;
-}
-
-.site-info a:hover,
-.site-info a:focus {
-	color: #333;
-}
-
 
 /**
  * 14.0 Media
@@ -2366,13 +2343,6 @@ p > video {
 
 	.page-content {
 		padding: 9.0909%;
-	}
-
-	.site-footer {
-		border-top: 0;
-		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-		margin: 0 7.6923%;
-		padding: 3.84615% 7.6923%;
 	}
 
 	.post-navigation {
@@ -3298,13 +3268,8 @@ p > video {
 
 	.site-footer {
 		float: left;
-		margin: 0 0 0 35.2941%;
-		padding: 0;
-		width: 58.8235%;
-	}
-
-	.site-info {
-		padding: 5% 10%;
+		margin-left: 29.4118%;
+		width: 70.5882%;
 	}
 
 	embed,
