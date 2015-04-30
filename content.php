@@ -35,8 +35,8 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s', 'tui' ),
-				the_title( '<span class="screen-reader-text">', '</span>', false )
+				__( 'Continue reading %s -&gt;', 'tui' ),
+				the_title( '', '', false )
 			) );
 
 			wp_link_pages( array(

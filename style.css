@@ -1519,7 +1519,7 @@ img.aligncenter {
 .post-thumbnail {
 	border: 0;
 	display: block;
-	margin-bottom: 2.4em;
+	margin-bottom: 1em;
 }
 .post-thumbnail img {
 	display: block;
@@ -1614,17 +1614,8 @@ a.post-thumbnail:focus {
 	display: block;
 }
 
-.entry-content .more-link,
-.entry-summary .more-link:after {
+.entry-content .more-link {
 	white-space: nowrap;
-}
-
-.entry-content .more-link:after,
-.entry-summary .more-link:after {
-	content: "\f429";
-	font-size: 16px;
-	position: relative;
-	top: 5px;
 }
 
 .author-info {
@@ -2475,10 +2466,6 @@ p > video {
 		border-top: 0;
 	}
 
-	.post-thumbnail {
-		margin-bottom: 2.4em;
-	}
-
 	.page-header {
 		border-bottom: 0;
 		border-left: 7px solid #333;
@@ -2811,10 +2798,6 @@ p > video {
 
 	.widget_rss .rss-date,
 	.widget_rss cite {
-	}
-
-	.post-thumbnail {
-		margin-bottom: 3em;
 	}
 
 	.entry-content .more-link:after,
@@ -3188,10 +3171,6 @@ p > video {
 	.widget_rss cite {
 		font-size: 13px;
 		font-size: 1.3rem;
-	}
-
-	.post-thumbnail {
-		margin-bottom: 2.9474em;
 	}
 
 	.entry-content .more-link:after,
@@ -3651,10 +3630,6 @@ p > video {
 		font-size: 1.2rem;
 	}
 
-	.post-thumbnail {
-		margin-bottom: 2.4em;
-	}
-
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		font-size: 16px;
@@ -4042,10 +4017,6 @@ p > video {
 	.widget_rss cite {
 	}
 
-	.post-thumbnail {
-		margin-bottom: 2.4706em;
-	}
-
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		font-size: 24px;
@@ -4398,10 +4369,6 @@ p > video {
 	.widget_rss cite {
 		font-size: 13px;
 		font-size: 1.3rem;
-	}
-
-	.post-thumbnail {
-		margin-bottom: 2.9474em;
 	}
 
 	.entry-content .more-link:after,
