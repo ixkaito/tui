@@ -236,6 +236,11 @@ i {
 	font-style: italic;
 }
 
+q {
+	background: #333;
+	font-style: italic;
+}
+
 blockquote {
 	background: #333;
 	font-style: italic;
@@ -283,17 +288,14 @@ pre {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+	background: #333;
 }
 
 pre {
-	background-color: transparent;
-	background-color: rgba(0, 0, 0, 0.01);
-	border: 1px solid #eaeaea;
-	border: 1px solid rgba(51, 51, 51, 0.1);
-	margin-bottom: 1.6em;
+	background: #333;
+	margin-bottom: 1em;
 	max-width: 100%;
 	overflow: auto;
-	padding: 0.8em;
 	white-space: pre;
 	white-space: pre-wrap;
 	word-wrap: break-word;
@@ -307,7 +309,8 @@ abbr[title] {
 
 mark,
 ins {
-	background-color: #fff9c0;
+	background-color: #fff;
+	color: #222;
 	text-decoration: none;
 }
 
@@ -422,11 +425,8 @@ img {
 }
 
 figure {
+	clear: both;
 	margin: 0;
-}
-
-del {
-	opacity: 0.8;
 }
 
 /* Placeholder text color -- selectors need to be separate to work. */
@@ -1180,29 +1180,21 @@ a:focus {
 blockquote.alignleft,
 .wp-caption.alignleft,
 img.alignleft {
-	margin: 0.4em 1.6em 1.6em 0;
+	margin: 0 1em 1em 0;
 }
 
 blockquote.alignright,
 .wp-caption.alignright,
 img.alignright {
-	margin: 0.4em 0 1.6em 1.6em;
+	margin: 0 0 1em 1em;
 }
 
 blockquote.aligncenter,
 .wp-caption.aligncenter,
 img.aligncenter {
 	clear: both;
-	margin-top: 0.4em;
-	margin-bottom: 1.6em;
+	margin-bottom: 1em;
 }
-
-.wp-caption.alignleft,
-.wp-caption.alignright,
-.wp-caption.aligncenter {
-	margin-bottom: 1.2em;
-}
-
 
 /**
  * 9.0 Clearings
@@ -2227,7 +2219,7 @@ p > video {
  */
 
 .wp-caption {
-	margin-bottom: 1.6em;
+	margin-bottom: 1em;
 	max-width: 100%;
 }
 
@@ -2235,16 +2227,6 @@ p > video {
 	display: block;
 	margin: 0;
 }
-
-.wp-caption-text {
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
-	font-size: 12px;
-	font-size: 1.2rem;
-	padding: 0.5em 0;
-}
-
 
 /**
  * 14.2 Galleries
@@ -2692,31 +2674,6 @@ p > video {
 		top: 2px;
 	}
 
-	blockquote.alignleft,
-	.wp-caption.alignleft,
-	img.alignleft {
-		margin: 0.4118em 1.6471em 1.6471em 0;
-	}
-
-	blockquote.alignright,
-	.wp-caption.alignright,
-	img.alignright {
-		margin: 0.4118em 0 1.6471em 1.6471em;
-	}
-
-	blockquote.aligncenter,
-	.wp-caption.aligncenter,
-	img.aligncenter {
-		margin-top: 0.4118em;
-		margin-bottom: 1.6471em;
-	}
-
-	.wp-caption.alignleft,
-	.wp-caption.alignright,
-	.wp-caption.aligncenter {
-		margin-bottom: 1.2353em;
-	}
-
 	.site-branding {
 		min-height: 3.7059em;
 		padding-right: 66px;
@@ -3002,11 +2959,6 @@ p > video {
 		margin-bottom: 1.6471em;
 	}
 
-	.wp-caption,
-	.gallery {
-		margin-bottom: 1.6471em;
-	}
-
 	.widecolumn .mu_alert {
 		margin-bottom: 1.6471em;
 	}
@@ -3149,31 +3101,6 @@ p > video {
 	.comment-navigation .nav-next a:after {
 		font-size: 24px;
 		top: -1px;
-	}
-
-	blockquote.alignleft,
-	.wp-caption.alignleft,
-	img.alignleft {
-		margin: 0.4211em 1.6842em 1.6842em 0;
-	}
-
-	blockquote.alignright,
-	.wp-caption.alignright,
-	img.alignright {
-		margin: 0.4211em 0 1.6842em 1.6842em;
-	}
-
-	blockquote.aligncenter,
-	.wp-caption.aligncenter,
-	img.aligncenter {
-		margin-top: 0.4211em;
-		margin-bottom: 1.6842em;
-	}
-
-	.wp-caption.alignleft,
-	.wp-caption.alignright,
-	.wp-caption.aligncenter {
-		margin-bottom: 1.2632em;
 	}
 
 	.site-branding {
@@ -3390,11 +3317,6 @@ p > video {
 	.wp-playlist.wp-audio-playlist {
 		font-size: 19px;
 		font-size: 1.9rem;
-		margin-bottom: 1.6842em;
-	}
-
-	.wp-caption,
-	.gallery {
 		margin-bottom: 1.6842em;
 	}
 
@@ -3623,30 +3545,10 @@ p > video {
 		padding: 0 10%;
 	}
 
-	blockquote.alignleft,
-	.wp-caption.alignleft,
-	img.alignleft {
-		margin: 0.4em 1.6em 1.6em 0;
-	}
-
-	blockquote.alignright,
-	.wp-caption.alignright,
-	img.alignright {
-		margin: 0.4em 0 1.6em 1.6em;
-	}
-
 	blockquote.aligncenter,
 	.wp-caption.aligncenter,
 	img.aligncenter {
 		clear: both;
-		margin-top: 0.4em;
-		margin-bottom: 1.6em;
-	}
-
-	.wp-caption.alignleft,
-	.wp-caption.alignright,
-	.wp-caption.aligncenter {
-		margin-bottom: 1.2em;
 	}
 
 	.site-header {
@@ -3915,11 +3817,6 @@ p > video {
 		margin-bottom: 1.6em;
 	}
 
-	.wp-caption,
-	.gallery {
-		margin-bottom: 1.6em;
-	}
-
 	.widecolumn {
 		margin: 8.3333%;
 		padding: 8.3333%;
@@ -4072,31 +3969,6 @@ p > video {
 	.comment-navigation .nav-previous a:before,
 	.comment-navigation .nav-next a:after {
 		top: 2px;
-	}
-
-	blockquote.alignleft,
-	.wp-caption.alignleft,
-	img.alignleft {
-		margin: 0.4118em 1.6471em 1.6471em 0;
-	}
-
-	blockquote.alignright,
-	.wp-caption.alignright,
-	img.alignright {
-		margin: 0.4118em 0 1.6471em 1.6471em;
-	}
-
-	blockquote.aligncenter,
-	.wp-caption.aligncenter,
-	img.aligncenter {
-		margin-top: 0.4118em;
-		margin-bottom: 1.6471em;
-	}
-
-	.wp-caption.alignleft,
-	.wp-caption.alignright,
-	.wp-caption.aligncenter {
-		margin-bottom: 1.2353em;
 	}
 
 	.site-title {
@@ -4298,11 +4170,6 @@ p > video {
 		margin-bottom: 1.6471em;
 	}
 
-	.wp-caption,
-	.gallery {
-		margin-bottom: 1.6471em;
-	}
-
 	.widecolumn .mu_alert {
 		margin-bottom: 1.6471em;
 	}
@@ -4450,31 +4317,6 @@ p > video {
 	.comment-navigation .nav-next a:after {
 		font-size: 24px;
 		top: -1px;
-	}
-
-	blockquote.alignleft,
-	.wp-caption.alignleft,
-	img.alignleft {
-		margin: 0.4211em 1.6842em 1.6842em 0;
-	}
-
-	blockquote.alignright,
-	.wp-caption.alignright,
-	img.alignright {
-		margin: 0.4211em 0 1.6842em 1.6842em;
-	}
-
-	blockquote.aligncenter,
-	.wp-caption.aligncenter,
-	img.aligncenter {
-		margin-top: 0.4211em;
-		margin-bottom: 1.6842em;
-	}
-
-	.wp-caption.alignleft,
-	.wp-caption.alignright,
-	.wp-caption.aligncenter {
-		margin-bottom: 1.2632em;
 	}
 
 	.site-title {
@@ -4682,11 +4524,6 @@ p > video {
 	.wp-playlist.wp-audio-playlist {
 		font-size: 19px;
 		font-size: 1.9rem;
-		margin-bottom: 1.6842em;
-	}
-
-	.wp-caption,
-	.gallery {
 		margin-bottom: 1.6842em;
 	}
 
