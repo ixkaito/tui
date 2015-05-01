@@ -1637,50 +1637,20 @@ a.post-thumbnail:focus {
 
 .page-links {
 	clear: both;
-	font-family: "Inconsolata", monospace;
-	margin-bottom: 1.3333em;
+	margin-bottom: 1em;
 }
 
-.page-links a,
-.page-links > span {
-	border: 1px solid #eaeaea;
-	border: 1px solid rgba(51, 51, 51, 0.1);
-	display: inline-block;
-	font-size: 12px;
-	font-size: 1.2rem;
-	height: 2em;
-	margin: 0 0.3333em 0.3333em 0;
-	text-align: center;
-	width: 2em;
-}
-
-.page-links a {
-	-webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
-	background-color: #333;
-	border-color: #333;
-	color: #fff;
-}
-
-.page-links a:hover,
-.page-links a:focus {
-	background-color: #707070;
-	background-color: rgba(51, 51, 51, 0.7);
-	border-color: transparent;
-	color: #fff;
+.page-links span {
+	padding: 0 0.5em;
 }
 
 .page-links > .page-links-title {
-	border: 0;
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
-	height: auto;
 	margin: 0;
-	padding-right: 0.5em;
-	width: auto;
+	padding: 0;
 }
 
 .entry-attachment {
-	margin-bottom: 1.6em;
+	margin-bottom: 1em;
 }
 
 .type-attachment .entry-title {
@@ -2561,19 +2531,6 @@ p > video {
 		padding-top: 0.4118em;
 	}
 
-	.page-links {
-		margin-bottom: 1.4117em;
-	}
-
-	.page-links a,
-	.page-links > span {
-		margin: 0 0.2857em 0.2857em 0;
-	}
-
-	.entry-attachment {
-		margin-bottom: 1.6471em;
-	}
-
 	.format-link .entry-title a:after {
 		top: 0.0833em;
 	}
@@ -2800,31 +2757,6 @@ p > video {
 	.edit-link:before,
 	.full-size-link:before {
 		top: 4px;
-	}
-
-	.taxonomy-description {
-		padding-top: 0.4211em;
-	}
-
-	.page-links {
-		margin-bottom: 1.4736em;
-	}
-
-	.page-links a,
-	.page-links > span {
-		margin: 0 0.25em 0.25em 0;
-	}
-
-	.entry-attachment {
-		margin-bottom: 1.6842em
-	}
-
-	.format-link .entry-title a:after {
-		top: 0.125em;
-	}
-
-	.comments-title {
-		margin-bottom: 1.4545em;
 	}
 
 	.comment-list article,
@@ -3105,23 +3037,6 @@ p > video {
 		padding: 8.3333%;
 	}
 
-	.taxonomy-description {
-		padding-top: 0.4em;
-	}
-
-	.page-links {
-		margin-bottom: 1.3333em;
-	}
-
-	.page-links a,
-	.page-links > span {
-		margin: 0 0.3333em 0.3333em 0;
-	}
-
-	.entry-attachment {
-		margin-bottom: 1.6em;
-	}
-
 	.format-link .entry-title a:after {
 		top: 0;
 	}
@@ -3334,23 +3249,6 @@ p > video {
 		padding-top: 0.4118em;
 	}
 
-	.page-links {
-		margin-bottom: 1.4117em;
-	}
-
-	.page-links a,
-	.page-links > span {
-		margin: 0 0.2857em 0.2857em 0;
-	}
-
-	.entry-attachment {
-		margin-bottom: 1.6471em;
-	}
-
-	.format-link .entry-title a:after {
-		top: 0.0833em;
-	}
-
 	.comments-title {
 		margin-bottom: 1.4em;
 	}
@@ -3555,11 +3453,6 @@ p > video {
 
 	.page-links {
 		margin-bottom: 1.4736em;
-	}
-
-	.page-links a,
-	.page-links > span {
-		margin: 0 0.25em 0.25em 0;
 	}
 
 	.entry-attachment {
