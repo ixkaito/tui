@@ -20,7 +20,7 @@
 
 		<?php
 			if ( is_sticky() && is_home() && ! is_paged() ) {
-				printf( '<span class="sticky-post">%s</span>', __( 'Featured', 'tui' ) );
+				printf( '<span class="sticky-post">%s</span>', __( 'Featured:', 'tui' ) );
 			}
 
 			if ( is_single() ) :
