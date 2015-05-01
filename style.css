@@ -913,10 +913,8 @@ a:focus {
 }
 
 .post-navigation .meta-nav {
+	color: #66d9ef;
 	display: block;
-}
-
-.post-navigation .meta-nav {
 	position: relative;
 	z-index: 2;
 }
