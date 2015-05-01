@@ -899,11 +899,10 @@ a:focus {
 }
 
 .post-navigation a {
-	display: block;
 	font-weight: 700;
 }
 
-.post-navigation span {
+.post-navigation .meta-nav {
 	display: block;
 }
 
