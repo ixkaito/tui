@@ -275,65 +275,6 @@ add_filter( 'previous_post_link', 'tui_post_link', 10, 5 );
 add_filter( 'next_post_link', 'tui_post_link', 10, 5 );
 
 /**
- * Return a paginated navigation to next/previous set of posts,
- * when applicable.
- *
- * @since TUI 1.0
- *
- * @see get_the_posts_pagination()
- *
- * @param array $args {
- *     Optional. Default pagination arguments, {@see paginate_links()}.
- *
- *     @type string $screen_reader_text Screen reader text for navigation element.
- *                                      Default 'Posts navigation'.
- * }
- * @return string Markup for pagination links.
- */
-function tui_get_the_posts_pagination( $args = array() ) {
-	$navigation = '';
-
-	// Don't print empty markup if there's only one page.
-	if ( $GLOBALS['wp_query']->max_num_pages > 1 ) {
-		$args = wp_parse_args( $args, array(
-			'mid_size'           => 1,
-			'prev_text'          => _x( 'Previous', 'previous post' ),
-			'next_text'          => _x( 'Next', 'next post' ),
-			'screen_reader_text' => __( 'Posts navigation' ),
-		) );
-
-		// Make sure we get a string back. Plain is the next best thing.
-		if ( isset( $args['type'] ) && 'array' == $args['type'] ) {
-			$args['type'] = 'plain';
-		}
-
-		// Set up paginated links.
-		$links = '|' . str_replace( "\n", '|', paginate_links( $args ) ) . '|';
-
-		if ( $links ) {
-			$navigation = _navigation_markup( $links, 'pagination', $args['screen_reader_text'] );
-		}
-	}
-
-	return $navigation;
-}
-
-/**
- * Display a paginated navigation to next/previous set of posts,
- * when applicable.
- *
- * @since TUI 1.0
- *
- * @see the_posts_pagination()
- *
- * @param array $args Optional. See {@see get_the_posts_pagination()} for available arguments.
- *                    Default empty array.
- */
-function tui_the_posts_pagination( $args = array() ) {
-	echo tui_get_the_posts_pagination( $args );
-}
-
-/**
  * Display descriptions in main navigation.
  *
  * @since TUI 1.0
