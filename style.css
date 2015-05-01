@@ -1379,12 +1379,22 @@ img.aligncenter {
 	position: relative;
 }
 
-.hentry.has-post-thumbnail {
-	padding-top: 0;
+.hentry + .hentry,
+.page-header + .hentry,
+.page-header + .page-content {
+	margin-top: 2em;
 }
 
-.hentry + .hentry {
-	border-top: 1px solid rgba(51, 51, 51, 0.1);
+.hentry + .hentry:before,
+.page-header + .hentry:before,
+.page-header + .page-content:before {
+	content: '====';
+	display: block;
+	margin-bottom: 2em;
+}
+
+.hentry.has-post-thumbnail {
+	padding-top: 0;
 }
 
 .post-thumbnail {
@@ -1552,12 +1562,9 @@ a.post-thumbnail:focus {
 }
 
 .sticky-post {
-	background-color: #f92672;
-	color: #fff;
+	color: #f92672;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-bottom: 1em;
-	float: left;
 }
 
 .updated:not(.published) {
@@ -2284,16 +2291,6 @@ p > video {
 
 	.widget-area {
 		margin-top: 0;
-	}
-
-	.hentry + .hentry,
-	.page-header + .hentry,
-	.page-header + .page-content {
-		margin-top: 2em;
-	}
-
-	.hentry + .hentry {
-		border-top: 0;
 	}
 
 	.page-header {
