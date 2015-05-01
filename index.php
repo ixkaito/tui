@@ -42,7 +42,7 @@ get_header(); ?>
 			endwhile;
 
 			// Previous/next page navigation.
-			the_posts_pagination( array(
+			tui_the_posts_pagination( array(
 				'prev_text'          => '&lt;-',
 				'next_text'          => '-&gt;',
 				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'tui' ) . ' </span>',
