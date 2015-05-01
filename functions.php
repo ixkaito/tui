@@ -266,8 +266,8 @@ add_action( 'wp_enqueue_scripts', 'tui_scripts' );
  * @see get_adjacent_post_link()
  */
 function tui_post_link( $output, $format, $link, $post, $adjacent ) {
-	$previous_next = $adjacent === 'previous' ? 'Previous' : 'Next';
-	$meta_nav = '<span class="meta-nav">' . __( "$previous_next post: ", 'tui' ) . '</span> ';
+	$prev_next = $adjacent === 'previous' ? 'Previous' : 'Next';
+	$meta_nav = '<span class="meta-nav">' . __( "$prev_next post: ", 'tui' ) . '</span> ';
 	$output = preg_replace( '/(<div class="nav-.*?">)/', "$1$meta_nav", $output );
 	return $output;
 }
