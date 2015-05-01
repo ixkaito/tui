@@ -49,7 +49,7 @@ function tui_entry_meta() {
 	$format = get_post_format();
 	if ( current_theme_supports( 'post-formats', $format ) ) {
 		printf( '<span class="entry-format">%1$s<a href="%2$s">%3$s</a></span> | ',
-			sprintf( '<span class="entry-meta-label">%s</span>: ', _x( 'Format', 'Used before post format.', 'tui' ) ),
+			sprintf( '<span class="meta-label">%s</span>: ', _x( 'Format', 'Used before post format.', 'tui' ) ),
 			esc_url( get_post_format_link( $format ) ),
 			get_post_format_string( $format )
 		);
@@ -69,7 +69,7 @@ function tui_entry_meta() {
 			get_the_modified_date()
 		);
 
-		printf( '<span class="posted-on"><span class="entry-meta-label">%1$s</span>: <a href="%2$s" rel="bookmark">%3$s</a></span> | ',
+		printf( '<span class="posted-on"><span class="meta-label">%1$s</span>: <a href="%2$s" rel="bookmark">%3$s</a></span> | ',
 			_x( 'Posted on', 'Used before publish date.', 'tui' ),
 			esc_url( get_permalink() ),
 			$time_string
@@ -78,7 +78,7 @@ function tui_entry_meta() {
 
 	if ( 'post' == get_post_type() ) {
 		if ( is_singular() || is_multi_author() ) {
-			printf( '<span class="byline"><span class="author vcard"><span class="entry-meta-label">%1$s</span>: <a class="url fn n" href="%2$s">%3$s</a></span></span> | ',
+			printf( '<span class="byline"><span class="author vcard"><span class="meta-label">%1$s</span>: <a class="url fn n" href="%2$s">%3$s</a></span></span> | ',
 				_x( 'Author', 'Used before post author name.', 'tui' ),
 				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 				get_the_author()
@@ -87,7 +87,7 @@ function tui_entry_meta() {
 
 		$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'tui' ) );
 		if ( $categories_list && tui_categorized_blog() ) {
-			printf( '<span class="cat-links"><span class="entry-meta-label">%1$s</span>: %2$s</span> | ',
+			printf( '<span class="cat-links"><span class="meta-label">%1$s</span>: %2$s</span> | ',
 				_x( 'Categories', 'Used before category names.', 'tui' ),
 				$categories_list
 			);
@@ -95,7 +95,7 @@ function tui_entry_meta() {
 
 		$tags_list = get_the_tag_list( '', _x( ', ', 'Used between list items, there is a space after the comma.', 'tui' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links"><span class="entry-meta-label">%1$s</span>: %2$s</span> | ',
+			printf( '<span class="tags-links"><span class="meta-label">%1$s</span>: %2$s</span> | ',
 				_x( 'Tags', 'Used before tag names.', 'tui' ),
 				$tags_list
 			);
@@ -106,7 +106,7 @@ function tui_entry_meta() {
 		// Retrieve attachment metadata.
 		$metadata = wp_get_attachment_metadata();
 
-		printf( '<span class="full-size-link"><span class="entry-meta-label">%1$s</span>: <a href="%2$s">%3$s &times; %4$s</a></span> | ',
+		printf( '<span class="full-size-link"><span class="meta-label">%1$s</span>: <a href="%2$s">%3$s &times; %4$s</a></span> | ',
 			_x( 'Full size', 'Used before full size attachment link.', 'tui' ),
 			esc_url( wp_get_attachment_url() ),
 			$metadata['width'],

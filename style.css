@@ -913,10 +913,7 @@ a:focus {
 }
 
 .post-navigation .meta-nav {
-	color: #66d9ef;
 	display: block;
-	position: relative;
-	z-index: 2;
 }
 
 .post-navigation .post-title {
@@ -1510,6 +1507,10 @@ a.post-thumbnail:focus {
 	white-space: nowrap;
 }
 
+.meta-label {
+	color: #66d9ef;
+}
+
 .author-info {
 	border-top: 1px solid #eaeaea;
 	border-top: 1px solid rgba(51, 51, 51, 0.1);
@@ -1584,10 +1585,6 @@ a.post-thumbnail:focus {
 
 .sticky .posted-on {
 	display: none;
-}
-
-.entry-meta-label {
-	color: #66d9ef;
 }
 
 .posted-on:before,

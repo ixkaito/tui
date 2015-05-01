@@ -267,7 +267,7 @@ add_action( 'wp_enqueue_scripts', 'tui_scripts' );
  */
 function tui_post_link( $output, $format, $link, $post, $adjacent ) {
 	$prev_next = $adjacent === 'previous' ? 'Previous' : 'Next';
-	$meta_nav = '<span class="meta-nav">' . __( "$prev_next post: ", 'tui' ) . '</span> ';
+	$meta_nav = '<span class="meta-nav"><span class="meta-label">' . __( "$prev_next post", 'tui' ) . '</span>: </span>';
 	$output = preg_replace( '/(<div class="nav-.*?">)/', "$1$meta_nav", $output );
 	return $output;
 }
