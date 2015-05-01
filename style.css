@@ -351,17 +351,29 @@ hr {
 	margin-bottom: 1em;
 }
 
-ul,
+ul {
+	padding-left: 1em;
+}
+
 ol {
 	margin: 0 0 1em 1.5em;
 }
 
 ul {
-	list-style: disc;
+	list-style: none;
 }
 
 ol {
 	list-style: decimal;
+}
+
+ul > li {
+	text-indent: -1em;
+}
+
+ul > li:before {
+	content: "*";
+	margin-right: 0.5em;
 }
 
 li > ul,
@@ -1178,11 +1190,21 @@ img.aligncenter {
 	margin-bottom: 0;
 }
 
+.widget ul {
+	padding-left: 0;
+}
+
+.widget ul > li {
+	text-indent: 0;
+}
+
+.widget ul > li:before {
+	content: '';
+	margin-right: 0;
+}
+
 .widget-title {
 	color: #fff;
-	font-family: "Inconsolata", monospace;
-	/*margin: 0 0 1.6em;*/
-	/*letter-spacing: 0.04em;*/
 	text-transform: uppercase;
 }
 
@@ -2225,7 +2247,6 @@ p > video {
 
 @media screen and (min-width: 38.75em) {
 
-	li > ul,
 	li > ol,
 	blockquote > ul,
 	blockquote > ol {
