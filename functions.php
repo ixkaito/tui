@@ -259,6 +259,22 @@ function tui_scripts() {
 add_action( 'wp_enqueue_scripts', 'tui_scripts' );
 
 /**
+ * Add navigation meta to post links.
+ *
+ * @since TUI 1.0
+ *
+ * @see get_adjacent_post_link()
+ */
+function tui_post_link( $output, $format, $link, $post, $adjacent ) {
+	$previous_next = $adjacent === 'previous' ? 'Previous' : 'Next';
+	$meta_nav = '<span class="meta-nav">' . __( "$previous_next post: ", 'tui' ) . '</span> ';
+	$output = preg_replace( '/(<div class="nav-.*?">)/', "$1$meta_nav", $output );
+	return $output;
+}
+add_filter( 'previous_post_link', 'tui_post_link', 9, 5 );
+add_filter( 'next_post_link', 'tui_post_link', 9, 5 );
+
+/**
  * Add featured image as background image to post navigation elements.
  *
  * @since TUI 1.0
