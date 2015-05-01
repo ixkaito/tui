@@ -25,7 +25,7 @@ if ( post_password_required() ) {
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'tui' ),
+				printf( _nx( 'One thought on &quot;%2$s&quot;', '%1$s thoughts on &quot;%2$s&quot;', get_comments_number(), 'comments title', 'tui' ),
 					number_format_i18n( get_comments_number() ), get_the_title() );
 			?>
 		</h2>
@@ -37,7 +37,7 @@ if ( post_password_required() ) {
 				wp_list_comments( array(
 					'style'       => 'ol',
 					'short_ping'  => true,
-					'avatar_size' => 56,
+					'avatar_size' => 0
 				) );
 			?>
 		</ol><!-- .comment-list -->
