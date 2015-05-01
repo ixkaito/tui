@@ -1586,6 +1586,10 @@ a.post-thumbnail:focus {
 	display: none;
 }
 
+.entry-meta-label {
+	color: #66d9ef;
+}
+
 .posted-on:before,
 .byline:before,
 .cat-links:before,
@@ -1596,16 +1600,6 @@ a.post-thumbnail:focus {
 .full-size-link:before {
 	margin-right: 2px;
 	position: relative;
-}
-
-.posted-on,
-.byline,
-.cat-links,
-.tags-links,
-.comments-link,
-.entry-format,
-.full-size-link {
-	margin-right: 0.5em;
 }
 
 .comments-link,
