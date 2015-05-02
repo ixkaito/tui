@@ -959,6 +959,7 @@ a:focus {
 }
 
 .pagination .page-numbers.current {
+	color: #ae81ff;
 	text-transform: uppercase;
 }
 
@@ -1425,6 +1426,7 @@ a.post-thumbnail:focus {
 }
 
 .entry-title {
+	color: #f92672;
 	text-transform: uppercase;
 }
 
