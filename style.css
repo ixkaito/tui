@@ -205,7 +205,7 @@ input,
 select,
 textarea {
 	color: #fff;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
@@ -260,7 +260,7 @@ blockquote > p:last-child {
 blockquote cite,
 blockquote small {
 	color: inherit;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 }
 
 blockquote em,
@@ -449,26 +449,26 @@ figure {
 ::-webkit-input-placeholder {
 	color: #999;
 	font-weight: 400;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 }
 
 :-moz-placeholder {
 	color: #999;
 	font-weight: 400;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 }
 
 ::-moz-placeholder {
 	color: #999;
 	font-weight: 400;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */
 }
 
 :-ms-input-placeholder {
 	color: #999;
 	font-weight: 400;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 }
 
 
@@ -517,7 +517,7 @@ input[type="submit"] {
 	border: 0;
 	color: #fff;
 	cursor: pointer;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-weight: 700;
 	padding: 0.7917em 1.5em;
 	text-transform: uppercase;
@@ -584,7 +584,7 @@ textarea:focus {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
 	display: block;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -688,7 +688,7 @@ a:focus {
 .main-navigation .menu-item-description {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 400;
@@ -1043,7 +1043,7 @@ a:focus {
 	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 	color: #21759b;
 	display: block;
-	font: bold 14px/normal "Inconsolata", monospace;
+	font: bold 14px/normal 'Inconsolata', monospace;
 	left: -9999em;
 	outline: none;
 	padding: 15px 23px 14px;
@@ -1054,7 +1054,7 @@ a:focus {
 
 .logged-in .site .skip-link {
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	font: bold 14px/normal "Open Sans", sans-serif;
+	font: bold 14px/normal 'Inconsolata', monospace;
 }
 
 .site .skip-link:focus {
@@ -1229,7 +1229,7 @@ img.aligncenter {
 }
 
 .widget_calendar caption {
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-weight: 700;
 	margin: 0 0 1.6em;
 	letter-spacing: 0.04em;
@@ -1328,7 +1328,7 @@ img.aligncenter {
 
 .widget_rss .rss-date,
 .widget_rss cite {
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-style: normal;
@@ -1526,7 +1526,7 @@ a.post-thumbnail:focus {
 }
 
 .author-heading {
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	margin-bottom: 1em;
 	text-transform: uppercase;
 }
@@ -1583,10 +1583,6 @@ a.post-thumbnail:focus {
 	display: none;
 }
 
-.sticky .posted-on {
-	display: none;
-}
-
 .posted-on:before,
 .byline:before,
 .cat-links:before,
@@ -1611,7 +1607,7 @@ a.post-thumbnail:focus {
 }
 
 .page-title {
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 18px;
 	font-size: 1.8rem;
 }
@@ -1673,7 +1669,7 @@ a.post-thumbnail:focus {
 .entry-caption {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	-webkit-hyphens: auto;
@@ -1801,7 +1797,7 @@ a.post-thumbnail:focus {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
 	display: inline-block;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-weight: 700;
 	margin-top: 2em;
 	padding: 0.4167em 0.8333em;
@@ -1822,7 +1818,7 @@ a.post-thumbnail:focus {
 .comment-form label {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -1844,7 +1840,7 @@ a.post-thumbnail:focus {
 .form-allowed-tags {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	margin-bottom: 2em;
@@ -1859,7 +1855,7 @@ a.post-thumbnail:focus {
 	border-top: 1px solid rgba(51, 51, 51, 0.1);
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-weight: 700;
 	padding-top: 1.6em;
 }
@@ -2053,7 +2049,7 @@ p > video {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
 	display: block;
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	padding: 0.5em 0;
@@ -2107,7 +2103,7 @@ p > video {
 .widecolumn .mu_register label {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Inconsolata", monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 700;

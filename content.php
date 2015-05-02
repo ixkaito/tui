@@ -59,7 +59,7 @@
 
 	<footer class="entry-footer">
 		<?php tui_entry_meta(); ?>
-		<?php edit_post_link( __( 'Edit', 'tui' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'tui' ), ' | <span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
