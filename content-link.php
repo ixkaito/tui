@@ -28,7 +28,7 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s -&gt;', 'tui' ),
+				__( '=&gt; Continue reading %s', 'tui' ),
 				the_title( '', '', false )
 			) );
 

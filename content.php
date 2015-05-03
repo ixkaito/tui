@@ -35,17 +35,17 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s -&gt;', 'tui' ),
+				__( '=&gt; Continue reading %s', 'tui' ),
 				the_title( '', '', false )
 			) );
 
 			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'tui' ) . '</span>',
+				'before'      => '<div class="page-links"><span class="page-links-title meta-label">' . __( 'Pages', 'tui' ) . '</span>: ',
 				'after'       => '</div>',
-				'link_before' => '<span>',
+				'link_before' => '<span class="page-number">',
 				'link_after'  => '</span>',
 				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'tui' ) . ' </span>%',
-				'separator'   => '<span class="screen-reader-text">, </span>',
+				'separator'   => ', ',
 			) );
 		?>
 	</div><!-- .entry-content -->

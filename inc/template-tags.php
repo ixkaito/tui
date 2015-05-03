@@ -235,7 +235,7 @@ function tui_excerpt_more( $more ) {
 	$link = sprintf( '<a href="%1$s" class="more-link">%2$s</a>',
 		esc_url( get_permalink( get_the_ID() ) ),
 		/* translators: %s: Name of current post */
-		sprintf( __( 'Continue reading %s -&gt;', 'tui' ), get_the_title( get_the_ID() ) )
+		sprintf( __( '=&gt; Continue reading %s', 'tui' ), get_the_title( get_the_ID() ) )
 		);
 	return ' &hellip; ' . $link;
 }
