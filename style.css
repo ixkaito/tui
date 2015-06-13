@@ -1651,7 +1651,8 @@ a.post-thumbnail:focus {
 }
 
 .comment-respond {
-	padding-top: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .comments-title {
@@ -1664,13 +1665,19 @@ a.post-thumbnail:focus {
 	margin: 0;
 }
 
+.comment-list > li {
+	margin-bottom: 1em;
+}
+
 .comment-list .children {
 	list-style: none;
 	margin: 0;
+	margin-top: 1em;
 }
 
 .comment-list .children > li {
-	padding-left: 0.8em;
+	padding-left: 1em;
+	margin-top: 1em;
 }
 
 .bypostauthor > article .fn:after {
@@ -1680,18 +1687,9 @@ a.post-thumbnail:focus {
 	left: 3px;
 }
 
-.comment-metadata {
-	margin-bottom: 1em;
-}
-
 .comment-metadata .edit-link:before {
 	content: '|';
 	margin-right: 0.5em;
-}
-
-.comment-content ul,
-.comment-content ol {
-	margin: 0 0 1.6em 1.3333em;
 }
 
 .comment-content li > ul,
@@ -1710,7 +1708,7 @@ a.post-thumbnail:focus {
 }
 
 .comment-form {
-	padding-top: 1em;
+	margin-top: 1em;
 }
 
 .comment-form label {
@@ -2141,16 +2139,13 @@ p > video {
 		padding: 0 9.0909%;
 	}
 
-	.comment-content ul,
-	.comment-content ol {
+	.comment-content ul {
 		margin-left: 0;
 	}
 
-	.comment-content li > ul,
 	.comment-content li > ol,
-	.comment-content blockquote > ul,
 	.comment-content blockquote > ol {
-		margin-left: 1.3333em;
+		margin-left: 1.5em;
 	}
 
 	.widecolumn {
@@ -2304,21 +2299,12 @@ p > video {
 		top: 0.0833em;
 	}
 
-	.comment-list .children > li {
-		padding-left: 1.2353em;
-	}
-
 	.comment-meta {
 		position: relative;
 	}
 
 	.comment-author {
 		margin-bottom: 0;
-	}
-
-	.comment-content ul,
-	.comment-content ol {
-		margin-bottom: 1.6471em;
 	}
 
 	embed,
@@ -2455,15 +2441,6 @@ p > video {
 	.entry-content .more-link:after,
 	.entry-summary .more-link:after {
 		top: 3px;
-	}
-
-	.comment-list .children > li {
-		padding-left: 1.4737em;
-	}
-
-	.comment-content ul,
-	.comment-content ol {
-		margin-bottom: 1.6842em;
 	}
 
 	embed,
@@ -2681,17 +2658,8 @@ p > video {
 		top: 0;
 	}
 
-	.comment-list .children > li {
-		padding-left: 0.8em;
-	}
-
 	.comment-author {
 		margin-bottom: 0.4em;
-	}
-
-	.comment-content ul,
-	.comment-content ol {
-		margin-bottom: 2em;
 	}
 
 	.site-footer {
@@ -2806,17 +2774,8 @@ p > video {
 		top: 2px;
 	}
 
-	.comment-list .children > li {
-		padding-left: 1.1667em;
-	}
-
 	.comment-author {
 		margin-bottom: 0;
-	}
-
-	.comment-content ul,
-	.comment-content ol {
-		margin-bottom: 1.6471em;
 	}
 
 	embed,
@@ -2944,15 +2903,6 @@ p > video {
 
 	.format-link .entry-title a:after {
 		top: 3px;
-	}
-
-	.comment-list .children > li {
-		padding-left: 1.4737em;
-	}
-
-	.comment-content ul,
-	.comment-content ol {
-		margin-bottom: 1.6842em;
 	}
 
 	embed,
