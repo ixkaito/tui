@@ -586,7 +586,7 @@ a {
 a:hover,
 a:focus {
 	background: #e6db74;
-	color: #000;
+	color: #222;
 }
 
 
@@ -858,17 +858,8 @@ a:focus {
 	left: -1px;
 }
 
-.post-navigation a {
-	font-weight: 700;
-}
-
-.post-navigation .meta-nav {
-	display: block;
-}
-
-.post-navigation .post-title {
-	position: relative;
-	z-index: 2;
+.post-navigation .meta-nav + .post-title {
+	margin-left: 0.5em;
 }
 
 .post-navigation .nav-next,
@@ -938,20 +929,6 @@ a:focus {
 	margin: 0 0.7em;
 }
 
-.image-navigation .nav-previous a:before,
-.comment-navigation .nav-previous a:before {
-	content: "\f430";
-	margin-right: 0.2em;
-	position: relative;
-}
-
-.image-navigation .nav-next a:after,
-.comment-navigation .nav-next a:after {
-	content: "\f429";
-	margin-left: 0.2em;
-	position: relative;
-}
-
 .comment-navigation {
 	border-top: 1px solid #eaeaea;
 	border-top: 1px solid rgba(51, 51, 51, 0.1);
@@ -964,13 +941,9 @@ a:focus {
 	border-bottom: 0;
 }
 
-.image-navigation {
-	padding: 0 7.6923%;
-}
-
 .image-navigation .nav-previous:not(:empty),
 .image-navigation .nav-next:not(:empty) {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 
@@ -1614,7 +1587,6 @@ a.post-thumbnail:focus {
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
-	padding-top: 0.5em;
 	word-wrap: break-word;
 }
 
@@ -1918,13 +1890,7 @@ p > video {
 }
 
 .gallery-caption {
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
 	display: block;
-	font-family: 'Inconsolata', monospace;
-	font-size: 12px;
-	font-size: 1.2rem;
-	padding: 0.5em 0;
 }
 
 .gallery-columns-6 .gallery-caption,
@@ -2128,10 +2094,6 @@ p > video {
 
 	.pagination .page-numbers {
 		display: inline-block;
-	}
-
-	.image-navigation {
-		padding: 0 9.0909%;
 	}
 
 	.comment-content ul {
@@ -2378,14 +2340,6 @@ p > video {
 	.secondary-toggle {
 		height: 64px;
 		width: 64px;
-	}
-
-	.image-navigation .nav-previous a:before,
-	.image-navigation .nav-next a:after,
-	.comment-navigation .nav-previous a:before,
-	.comment-navigation .nav-next a:after {
-		font-size: 24px;
-		top: -1px;
 	}
 
 	.site-branding {
