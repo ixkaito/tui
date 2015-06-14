@@ -1738,13 +1738,8 @@ a.post-thumbnail:focus {
 }
 
 .no-comments {
-	border-top: 1px solid #eaeaea;
-	border-top: 1px solid rgba(51, 51, 51, 0.1);
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
-	font-family: 'Inconsolata', monospace;
-	font-weight: 700;
-	padding-top: 1.6em;
+	color: #75715e;
+	margin-top: 1em;
 }
 
 .comment-navigation + .no-comments {
