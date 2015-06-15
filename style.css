@@ -589,6 +589,10 @@ a:focus {
 	color: #222;
 }
 
+a.mejs-horizontal-volume-slider:hover,
+a.mejs-mute:hover {
+	background: transparent;
+}
 
 /**
  * 6.2 Menus
