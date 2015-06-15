@@ -316,13 +316,10 @@ hr {
 	margin-bottom: 1em;
 }
 
+ol,
 ul {
 	padding-left: 1.5em;
 	margin-bottom: 1em;
-}
-
-ol {
-	margin: 0 0 1em 1.5em;
 }
 
 ul {
@@ -335,6 +332,10 @@ ol {
 
 ul > li {
 	text-indent: -1em;
+}
+
+ol > li {
+	text-indent: 0;
 }
 
 ul > li:before {
@@ -1590,15 +1591,6 @@ a.post-thumbnail:focus {
  * 12.2 Post Formats
  */
 
-.format-link .entry-title a:after {
-	content: "\f442";
-	font-size: 24px;
-	height: 24px;
-	position: relative;
-	top: 0;
-	width: 24px;
-}
-
 .blog .format-status .entry-title,
 .archive .format-status .entry-title {
 	display: none;
@@ -2007,7 +1999,6 @@ p > video {
 
 @media screen and (min-width: 38.75em) {
 
-	li > ol,
 	blockquote > ul,
 	blockquote > ol {
 		margin-left: 1.5em;
