@@ -1088,6 +1088,10 @@ img.aligncenter {
 	display: block;
 }
 
+.site-title a:hover {
+	color: #222;
+}
+
 .site-description {
 	display: none;
 	font-weight: 400;
@@ -1604,6 +1608,10 @@ a.post-thumbnail:focus {
 
 .comments-area {
 	margin-top: 1em;
+}
+
+.comments-area > ol {
+	padding-left: 0;
 }
 
 .comment-respond {
