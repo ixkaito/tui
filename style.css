@@ -16,7 +16,6 @@ Text Domain: tui
  * Table of Contents
  *
  * 1.0 - Reset
- * 2.0 - Genericons
  * 3.0 - Typography
  * 4.0 - Elements
  * 5.0 - Forms
@@ -486,6 +485,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	background-color: #e6db74;
+	color: #222;
 	border: 0;
 	padding: 0;
 	cursor: pointer;
@@ -611,6 +611,10 @@ a.mejs-mute:hover {
  * 6.2 Menus
  */
 
+.sidebar {
+	padding: 1em 1em 0;
+}
+
 .main-navigation {
 	margin-bottom: 1em;
 }
@@ -656,6 +660,12 @@ a.mejs-mute:hover {
 
 .no-js .main-navigation ul ul {
 	display: block;
+}
+
+.secondary-toggle {
+	display: block;
+	text-align: center;
+	width: 100%;
 }
 
 .post-navigation .meta-nav + .post-title {
@@ -863,7 +873,6 @@ img.aligncenter {
 
 .site-branding {
 	min-height: 2em;
-	padding-right: 60px;
 	position: relative;
 }
 
@@ -1072,14 +1081,10 @@ img.aligncenter {
 }
 
 .secondary {
-	background-color: #fff;
 	display: none;
-	padding: 0 7.6923%;
 }
 
 .secondary.toggled-on {
-	border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent;
 	display: block;
 }
 
@@ -1805,12 +1810,6 @@ p > video {
 		display: block;
 	}
 
-	.secondary {
-		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-		margin: 7.6923% 7.6923% 0;
-		padding: 7.6923% 7.6923% 0;
-	}
-
 	.widget-area {
 		margin-top: 0;
 	}
@@ -1859,15 +1858,6 @@ p > video {
  */
 
 @media screen and (min-width: 46.25em) {
-
-	.secondary-toggle {
-		height: 56px;
-		width: 56px;
-	}
-
-	.secondary-toggle:before {
-		width: 54px;
-	}
 
 	.widget p,
 	.widget address,
@@ -2028,16 +2018,6 @@ p > video {
  */
 
 @media screen and (min-width: 55em) {
-
-	.secondary-toggle {
-		height: 64px;
-		width: 64px;
-	}
-
-	.site-branding {
-		min-height: 3.7895em;
-		padding-right: 74px;
-	}
 
 	.widget blockquote {
 		font-size: 19px;
