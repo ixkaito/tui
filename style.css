@@ -1637,10 +1637,10 @@ a.post-thumbnail:focus {
 	list-style: none;
 	margin: 0;
 	margin-top: 1em;
+	padding-left: 1em;
 }
 
 .comment-list .children > li {
-	padding-left: 1em;
 	margin-top: 1em;
 }
 
