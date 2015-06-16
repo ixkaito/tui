@@ -574,6 +574,7 @@ input[type="radio"] {
 /**
  * 6.0 Navigations
  */
+
 .pagination:before {
 	clear: both;
 	content: '________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________';
@@ -584,6 +585,7 @@ input[type="radio"] {
 	overflow: hidden;
 	margin-bottom: 1em;
 }
+
 
 /**
  * 6.1 Links
@@ -609,25 +611,31 @@ a.mejs-mute:hover {
  * 6.2 Menus
  */
 
-.main-navigation a {
-	display: block;
-	padding: 0.8em 0;
-	position: relative;
-	text-decoration: none;
+.social-navigation {
+	margin-bottom: 11.1111%;
+}
+
+.social-navigation {
+	margin-top: 0;
 }
 
 .main-navigation ul {
 	list-style: none;
 	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation li {
+	text-indent: 0;
+}
+
+.main-navigation li:before {
+	content: "";
+	margin-right: 0;
 }
 
 .main-navigation ul ul {
-	display: none;
-	margin-left: 0.8em;
-}
-
-.main-navigation ul .toggled-on {
-	display: block;
+	margin-left: 1em;
 }
 
 .main-navigation li {
@@ -662,215 +670,6 @@ a.mejs-mute:hover {
 
 .no-js .main-navigation ul ul {
 	display: block;
-}
-
-.dropdown-toggle {
-	background-color: transparent;
-	border: 0;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	content: "";
-	height: 42px;
-	padding: 0;
-	position: absolute;
-	text-transform: lowercase; /* Stop screen readers to read the text as capital letters */
-	top: 3px;
-	right: 0;
-	width: 42px;
-}
-
-.dropdown-toggle:after {
-	color: #333;
-	content: "\f431";
-	font-size: 24px;
-	position: relative;
-	top: 0;
-	left: 1px;
-	width: 42px;
-}
-
-.dropdown-toggle:hover,
-.dropdown-toggle:focus {
-	background-color: #eaeaea;
-	background-color: rgba(51, 51, 51, 0.1);
-}
-
-.dropdown-toggle:focus {
-	outline: 1px solid #c1c1c1;
-	outline: 1px solid rgba(51, 51, 51, 0.3);
-}
-
-.dropdown-toggle.toggle-on:after {
-	content: "\f432";
-}
-
-.social-navigation {
-	margin: 9.0909% 0;
-}
-
-.social-navigation ul {
-	list-style: none;
-	margin: 0 0 -1.6em 0;
-}
-
-.social-navigation li {
-	float: left;
-}
-
-.social-navigation a {
-	display: block;
-	height: 3.2em;
-	position: relative;
-	width: 3.2em;
-}
-
-.social-navigation a:before {
-	content: "\f415";
-	font-size: 24px;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.social-navigation a[href*="codepen.io"]:before {
-	content: "\f216";
-}
-
-.social-navigation a[href*="digg.com"]:before {
-	content: "\f221";
-}
-
-.social-navigation a[href*="dribbble.com"]:before {
-	content: "\f201";
-}
-
-.social-navigation a[href*="dropbox.com"]:before {
-	content: "\f225";
-}
-
-.social-navigation a[href*="facebook.com"]:before {
-	content: "\f203";
-}
-
-.social-navigation a[href*="flickr.com"]:before {
-	content: "\f211";
-}
-
-.social-navigation a[href*="foursquare.com"]:before {
-	content: "\f226";
-}
-
-.social-navigation a[href*="plus.google.com"]:before {
-	content: "\f206";
-}
-
-.social-navigation a[href*="github.com"]:before {
-	content: "\f200";
-}
-
-.social-navigation a[href*="instagram.com"]:before {
-	content: "\f215";
-}
-
-.social-navigation a[href*="linkedin.com"]:before {
-	content: "\f208";
-}
-
-.social-navigation a[href*="pinterest.com"]:before {
-	content: "\f210";
-}
-
-.social-navigation a[href*="getpocket.com"]:before {
-	content: "\f224";
-}
-
-.social-navigation a[href*="polldaddy.com"]:before {
-	content: "\f217";
-}
-
-.social-navigation a[href*="reddit.com"]:before {
-	content: "\f222";
-}
-
-.social-navigation a[href*="stumbleupon.com"]:before {
-	content: "\f223";
-}
-
-.social-navigation a[href*="tumblr.com"]:before {
-	content: "\f214";
-}
-
-.social-navigation a[href*="twitter.com"]:before {
-	content: "\f202";
-}
-
-.social-navigation a[href*="vimeo.com"]:before {
-	content: "\f212";
-}
-
-.social-navigation a[href*="wordpress.com"]:before,
-.social-navigation a[href*="wordpress.org"]:before {
-	content: "\f205";
-}
-
-.social-navigation a[href*="youtube.com"]:before {
-	content: "\f213";
-}
-
-.social-navigation a[href*="mailto:"]:before {
-	content: "\f410";
-}
-
-.social-navigation a[href*="spotify.com"]:before {
-	content: "\f515";
-}
-
-.social-navigation a[href*="twitch.tv"]:before {
-	content: "\f516";
-}
-
-.social-navigation a[href$="/feed/"]:before {
-	content: "\f413";
-}
-
-.secondary-toggle {
-	background-color: transparent;
-	border: 1px solid #eaeaea;
-	border: 1px solid rgba(51, 51, 51, 0.1);
-	height: 42px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	top: 50%;
-	right: 0;
-	text-align: center;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	width: 42px;
-}
-
-.secondary-toggle:before {
-	color: #333;
-	content: "\f419";
-	width: 40px;
-}
-
-.secondary-toggle:hover,
-.secondary-toggle:focus {
-	background-color: transparent;
-	border: 1px solid #c1c1c1;
-	border: 1px solid rgba(51, 51, 51, 0.3);
-	outline: 0;
-}
-
-.secondary-toggle.toggled-on:before {
-	content: "\f405";
-	font-size: 32px;
-	position: relative;
-	top: 1px;
-	left: -1px;
 }
 
 .post-navigation .meta-nav + .post-title {
@@ -2029,28 +1828,6 @@ p > video {
 		padding: 7.6923% 7.6923% 0;
 	}
 
-	.main-navigation {
-		margin-bottom: 11.1111%;
-	}
-
-	.main-navigation ul {
-		border-top: 1px solid rgba(51, 51, 51, 0.1);
-		border-bottom: 1px solid rgba(51, 51, 51, 0.1);
-	}
-
-	.main-navigation ul ul {
-		border-top: 0;
-		border-bottom: 0;
-	}
-
-	.social-navigation {
-		margin-bottom: 11.1111%;
-	}
-
-	.social-navigation {
-		margin-top: 0;
-	}
-
 	.widget-area {
 		margin-top: 0;
 	}
@@ -2099,33 +1876,6 @@ p > video {
  */
 
 @media screen and (min-width: 46.25em) {
-
-	.main-navigation {
-		font-size: 14px;
-		font-size: 1.4rem;
-	}
-
-	.main-navigation a {
-		padding: 1em 0;
-	}
-
-	.main-navigation ul ul {
-		margin-left: 1em;
-	}
-
-	.main-navigation .menu-item-description {
-		font-size: 14px;
-		font-size: 1.4rem;
-	}
-
-	.social-navigation ul {
-		margin-bottom: -1.4706em;
-	}
-
-	.social-navigation a {
-		height: 2.8824em;
-		width: 2.8824em;
-	}
 
 	.secondary-toggle {
 		height: 56px;
@@ -2296,29 +2046,6 @@ p > video {
 
 @media screen and (min-width: 55em) {
 
-	.main-navigation {
-		font-size: 16px;
-		font-size: 1.6rem;
-	}
-
-	.main-navigation a {
-		padding: 0.75em 0;
-	}
-
-	.main-navigation .menu-item-description {
-		font-size: 16px;
-		font-size: 1.6rem;
-	}
-
-	.social-navigation ul {
-		margin-bottom: -1.2632em;
-	}
-
-	.social-navigation a {
-		height: 2.5263em;
-		width: 2.5263em;
-	}
-
 	.secondary-toggle {
 		height: 64px;
 		width: 64px;
@@ -2465,51 +2192,6 @@ p > video {
 		width: 70.5882%;
 	}
 
-	.main-navigation {
-		font-size: 12px;
-		font-size: 1.2rem;
-		margin: 0 20% 20%;
-	}
-
-	.main-navigation a {
-		padding: 0.5em 0;
-	}
-
-	.main-navigation .menu-item-has-children > a {
-		padding-right: 30px;
-	}
-
-	.main-navigation .menu-item-description {
-		font-size: 12px;
-		font-size: 1.2rem;
-	}
-
-	.dropdown-toggle {
-		height: 24px;
-		width: 24px;
-	}
-
-	.dropdown-toggle:after {
-		font-size: 16px;
-		width: 24px;
-	}
-
-	.social-navigation {
-		margin: 0 20% 20%;
-	}
-
-	.social-navigation ul {
-		margin-bottom: -1.6em;
-	}
-
-	.social-navigation li {
-		width: 25%;
-	}
-
-	.social-navigation a {
-		height: 3.2em;
-	}
-
 	.secondary-toggle {
 		display: none;
 	}
@@ -2650,44 +2332,6 @@ p > video {
 
 @media screen and (min-width: 68.75em) {
 
-	.main-navigation {
-		font-size: 14px;
-		font-size: 1.4rem;
-	}
-
-	.main-navigation a {
-		padding: 0.4643em 0;
-	}
-
-	.main-navigation .menu-item-has-children > a {
-		padding-right: 34px;
-	}
-
-	.main-navigation .menu-item-description {
-		margin-top: 0.25em;
-	}
-
-	.dropdown-toggle {
-		height: 28px;
-		width: 28px;
-	}
-
-	.dropdown-toggle:after {
-		width: 28px;
-	}
-
-	.social-navigation ul {
-		margin-bottom: -1.4706em;
-	}
-
-	.social-navigation li {
-		width: 20%;
-	}
-
-	.social-navigation a {
-		height: 2.8824em;
-	}
-
 	.widget_categories .children,
 	.widget_nav_menu .sub-menu,
 	.widget_pages .children {
@@ -2754,38 +2398,6 @@ p > video {
  */
 
 @media screen and (min-width: 77.5em) {
-
-	.main-navigation a {
-		padding: 0.5em 0;
-	}
-
-	.main-navigation .menu-item-has-children > a {
-		padding-right: 38px;
-	}
-
-	.main-navigation .menu-item-description {
-		font-size: 13px;
-		font-size: 1.3rem;
-		margin-top: 0.3077em;
-	}
-
-	.dropdown-toggle {
-		height: 32px;
-		top: 4px;
-		width: 32px;
-	}
-
-	.dropdown-toggle:after {
-		width: 32px;
-	}
-
-	.social-navigation ul {
-		margin-bottom: -1.2632em;
-	}
-
-	.social-navigation a {
-		height: 2.5263em;
-	}
 
 	.widget blockquote {
 		padding-left: 1em;
