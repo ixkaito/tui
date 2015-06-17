@@ -686,13 +686,7 @@ a.mejs-mute:hover {
 	position: relative;
 }
 
-/* reset screen-reader-text */
-.pagination .current .screen-reader-text {
-	position: static !important;
-}
-
 .pagination .page-numbers {
-	display: none;
 	padding: 0 0.5em;
 }
 
