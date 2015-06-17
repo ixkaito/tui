@@ -959,6 +959,20 @@ img.aligncenter {
 	display: block;
 }
 
+.widget_tag_cloud .tagcloud a {
+	font-size: 16px !important;
+	font-size: 1.6rem !important;
+}
+
+.widget_tag_cloud .tagcloud a:after {
+	content: ",";
+	color: #fff;
+}
+
+.widget_tag_cloud .tagcloud a:hover:after {
+	background: #333;
+}
+
 .widget_archive a,
 .widget_categories a,
 .widget_links a,
