@@ -1324,11 +1324,6 @@ a.post-thumbnail:focus {
 	margin-bottom: 0;
 }
 
-.page-content {
-	background-color: #fff;
-	padding: 7.6923%;
-}
-
 .page-content > :last-child {
 	margin-bottom: 0;
 }
