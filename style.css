@@ -1427,13 +1427,6 @@ a.post-thumbnail:focus {
 	margin-top: 1em;
 }
 
-.bypostauthor > article .fn:after {
-	content: "\f304";
-	position: relative;
-	top: 5px;
-	left: 3px;
-}
-
 .comment-metadata .edit-link:before {
 	content: '|';
 	margin-right: 0.5em;
